@@ -8,7 +8,7 @@ A summary of the introductory recommendations can be found in [CodeReviewComment
 
 ## Dependency Management
 
-In addition, to manage possible dependencies this project uses [Godep](https://github.com/tools/godep). Modifications on the dependencies must be submitted with the pull request on file `Godeps/Godeps.json`. Instructions as Godep works can be found [here](https://github.com/tools/godep).
+In addition, to manage possible dependencies this project uses [govendor](https://github.com/kardianos/govendor). Modifications on the dependencies must be submitted with the pull request on file `vendor/vendor.json`. Instructions as govendor works can be found [here](https://github.com/kardianos/govendor).
 
 ## Commit message pattern
 
