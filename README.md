@@ -1,6 +1,6 @@
 # Goddamned
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+![license](https://img.shields.io/badge/license-MIT-blue.svg) ![go-version](https://img.shields.io/badge/go%20version-1.7-orange.svg)
 
 The objective of this project is to practice writing applications Go. Covering aspects such as testing, documentation, restful api and deploys in cloud environments.
 
