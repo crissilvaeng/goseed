@@ -1,0 +1,21 @@
+{
+    "name": "Goddamned",
+    "description": "Generict application build in Golang.",
+    "keywords": [
+        "golang",
+        "go"
+    ],
+    "repository": "https://github.com/crissilvaeng/goddamned/",
+    "env": {
+        "PORT": {
+            "description": "Web application exposed port.",
+            "value": "80",
+            "required": false
+        }
+    },
+    "buildpack": [
+        {
+            "url": "heroku/go"
+        }
+    ]
+}
