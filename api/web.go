@@ -1,15 +1,17 @@
 package api
 
 import (
-	"fmt"
-	"net/http"
+	"github.com/crissilvaeng/goddamned/api/routes"
+	"github.com/gin-gonic/gin"
 )
 
-// Routes define the handled endpoint on API.
-func Routes() {
-	http.HandleFunc("/", hello)
-}
+// Run define the handled endpoint on API.
+func Run(port string) {
+	r := gin.Default()
 
-func hello(res http.ResponseWriter, req *http.Request) {
-	fmt.Fprintln(res, "Hello, World!")
+	v1 := r.Group("/v1")
+
+	v1.GET("/hello", routes.Hello)
+
+	r.Run(":" + port)
 }
