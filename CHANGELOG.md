@@ -4,3 +4,8 @@ All changes in this project are documented in this file following the formatting
 ## [Unreleased]
 ### Added
 - Endpoint Hello World in the application root route.
+- Skeleton of deploy in Heroku.
+
+### Changed
+- Gin framework as framework web.
+- Govendor as dependencies manager.
