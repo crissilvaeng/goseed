@@ -8,13 +8,6 @@
     "repository": "https://github.com/crissilvaeng/goddamned/",
     "image": "heroku/go:1.6",
     "mount_dir": "src/github.com/crissilvaeng/goddamned",
-    "env": {
-        "PORT": {
-            "description": "Web application exposed port.",
-            "value": "80",
-            "required": false
-        }
-    },
     "buildpack": [
         {
             "url": "heroku/go"
