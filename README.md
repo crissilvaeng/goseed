@@ -8,14 +8,14 @@ The objective of this project is to practice writing applications Go. Covering a
 
 Assuming a recent version installed of Go and the variables `GOROOT` and `GOPATH` already defined, the set of commands below should recreate this project locally on a machine. Otherwise, [this installation guide](https://golang.org/doc/install) available in official of the [Golang](https://golang.org) site will help.
 
-In addition, to manage possible dependencies this project uses [Godep](https://github.com/tools/godep) whose [installation instructions are available here](https://github.com/tools/godep).
+In addition, to manage possible dependencies this project uses [govendor](https://github.com/kardianos/govendor) whose [installation instructions are available here](https://github.com/kardianos/govendor).
 
 **On Windows**
 
 ```bash
 > go get -u github.com/crissilvaeng/goddamned
 > cd %GOPATH%\github.com\crissilvaeng\goddamned
-> godep restore
+> govendor sync
 > go get
 > goddamned
 ```
@@ -25,7 +25,7 @@ In addition, to manage possible dependencies this project uses [Godep](https://g
 ```bash
 $ go get -u github.com/crissilvaeng/goddamned
 $ cd $GOPATH/github.com/crissilvaeng/goddamned
-$ godep restore
+$ govendor sync
 $ go get
 $ goddamned
 ```
