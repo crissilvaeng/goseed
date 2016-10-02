@@ -7,5 +7,6 @@ after_success:
   - go get golang.org/x/tools/cmd/goimports
   - go get -u github.com/golang/lint/golint
   - go get github.com/gordonklaus/ineffassign
+  - go get github.com/mattn/goveralls
   - chmod a+x gosweep.sh
   - ./gosweep.sh
