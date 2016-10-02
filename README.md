@@ -2,9 +2,10 @@
 
 [![Build Status](https://travis-ci.org/crissilvaeng/goseed.svg?branch=master)](https://travis-ci.org/crissilvaeng/goseed) 
 [![Coverage Status](https://coveralls.io/repos/github/crissilvaeng/goseed/badge.svg?branch=HEAD)](https://coveralls.io/github/crissilvaeng/goseed?branch=HEAD)
-[![Go Report Card](https://goreportcard.com/badge/github.com/crissilvaeng/goseed)](https://goreportcard.com/report/github.com/crissilvaeng/goseed) 
-[![Go Version](https://img.shields.io/badge/go%20version-1.7-orange.svg)](https://golang.org/doc/devel/release.html)
+[![Go Report Card](https://goreportcard.com/badge/github.com/crissilvaeng/goseed)](https://goreportcard.com/report/github.com/crissilvaeng/goseed)
+[![Latest Release](https://img.shields.io/github/release/crissilvaeng/goseed.svg)](https://github.com/crissilvaeng/goseed/releases) 
 [![GoDoc](https://godoc.org/github.com/crissilvaeng/goseed?status.svg)](https://godoc.org/github.com/crissilvaeng/goseed) 
+[![Go Version](https://img.shields.io/badge/go%20version-1.7-orange.svg)](https://golang.org/doc/devel/release.html)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 This repository is a seed for API projects developed in Go. It contains the dependencies, basic structure, test scripts and coverage. It is possible to easily integrate it with other services like [Travis Ci](https://travis-ci.org/), [Heroku](https://www.heroku.com/) and [Coveralls](https://coveralls.io/).
