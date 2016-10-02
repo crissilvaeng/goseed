@@ -43,15 +43,15 @@ Content-Length: 69
 {"message":"The answer to life, the universe and everything is 42."}
  ```
 
- ## CI and Deploy
+## CI and Deploy
 
- This solution is designed to use the following services: [Travis CI](https://travis-ci.org/), Coveralls and [Heroku](https://www.heroku.com/).
+This solution is designed to use the following services: [Travis CI](https://travis-ci.org/), Coveralls and [Heroku](https://www.heroku.com/).
 
- ### [Coveralls](https://coveralls.io/)
+### [Coveralls](https://coveralls.io/)
 
- Connect this repository to a account in Coveralls service. Save the `repo_token`. Replace the URL of the README badge.
+Connect this repository to a account in Coveralls service. Save the `repo_token`. Replace the URL of the README badge.
 
- ### [Travis CI](https://travis-ci.org/)
+### [Travis CI](https://travis-ci.org/)
 
 Connect this repository to a account in [Travis CI](https://travis-ci.org/) service. Set two environment variables. One called `COVERALLS_TOKEN` whit the `repo_token` from [Coveralls](https://coveralls.io/). The second called  `CI_SERVICE` with the name of the service.
 
