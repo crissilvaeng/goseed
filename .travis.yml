@@ -4,5 +4,5 @@ go:
   - 1.7
 
 after_success:
-  - git update-index --chmod=+x gosweep.sh
+  - chmod a+x gosweep.sh
   - ./gosweep.sh
