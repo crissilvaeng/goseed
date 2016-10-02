@@ -1,6 +1,6 @@
 # Goddamned
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg) ![go-version](https://img.shields.io/badge/go%20version-1.7-orange.svg) ![go-vendor](https://img.shields.io/badge/dependencies-go%20vendor-ff69b4.svg)
+[![Build Status](https://travis-ci.org/crissilvaeng/goddamned.svg?branch=master)](https://travis-ci.org/crissilvaeng/goddamned) [![Coverage Status](https://coveralls.io/repos/github/crissilvaeng/goddamned/badge.svg?branch=master)](https://coveralls.io/github/crissilvaeng/goddamned?branch=master) ![go-version](https://img.shields.io/badge/go%20version-1.7-orange.svg) ![go-vendor](https://img.shields.io/badge/dependencies-govendor-ff69b4.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 The objective of this project is to practice writing applications Go. Covering aspects such as testing, documentation, restful api and deploys in cloud environments.
 
