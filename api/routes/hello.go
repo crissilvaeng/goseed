@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/crissilvaeng/goddamned/api/universe"
+	"github.com/crissilvaeng/goseed/api/universe"
+
 	"github.com/gin-gonic/gin"
 )
 

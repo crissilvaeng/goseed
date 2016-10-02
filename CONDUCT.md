@@ -55,7 +55,7 @@ further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at [\<cristina.silva@openmailbox.org\>](mailto:cristina.silva@openmailbox.org?Subject=Goddamned%20-%20Unacceptable%20Behavior%20Report). All
+reported by contacting the project team at [\<cristina.silva@openmailbox.org\>](mailto:cristina.silva@openmailbox.org?Subject=Go%20Seed%20-%20Unacceptable%20Behavior%20Report). All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.

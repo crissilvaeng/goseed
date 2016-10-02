@@ -1,13 +1,13 @@
 {
-    "name": "Goddamned",
-    "description": "Generict application build in Golang.",
+    "name": "Go Seed",
+    "description": "Seed to API projects developed in Go",
     "keywords": [
         "golang",
         "go"
     ],
-    "repository": "https://github.com/crissilvaeng/goddamned/",
-    "image": "heroku/go:1.6",
-    "mount_dir": "src/github.com/crissilvaeng/goddamned",
+    "repository": "https://github.com/crissilvaeng/goseed/",
+    "image": "heroku/go:1.7",
+    "mount_dir": "src/github.com/crissilvaeng/goseed",
     "buildpack": [
         {
             "url": "heroku/go"

@@ -1,1 +1,1 @@
-web: goddamned
+web: goseed

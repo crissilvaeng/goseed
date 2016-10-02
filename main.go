@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/crissilvaeng/goddamned/api"
+	"github.com/crissilvaeng/goseed/api"
 )
 
 // Provides by govvv in compile-time.

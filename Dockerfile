@@ -4,6 +4,6 @@ MAINTAINER Cristina Silva <cristina.silva@openmailbox.org>
 
 WORKDIR "/opt"
 
-ADD .docker_build/goddamned /opt/bin/goddamned
+ADD .docker_build/goseed /opt/bin/goseed
 
-CMD ["/opt/bin/goddamned"]
+CMD ["/opt/bin/goseed"]

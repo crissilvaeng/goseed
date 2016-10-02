@@ -1,7 +1,8 @@
 package api
 
 import (
-	"github.com/crissilvaeng/goddamned/api/routes"
+	"github.com/crissilvaeng/goseed/api/routes"
+
 	"github.com/gin-gonic/gin"
 )
 

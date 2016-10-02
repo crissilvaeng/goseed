@@ -1,8 +1,8 @@
-# Goddamned
+# Go Seed
 
-[![Build Status](https://travis-ci.org/crissilvaeng/goddamned.svg?branch=master)](https://travis-ci.org/crissilvaeng/goddamned) [![Coverage Status](https://coveralls.io/repos/github/crissilvaeng/goddamned/badge.svg?branch=HEAD)](https://coveralls.io/github/crissilvaeng/goddamned?branch=HEAD) ![go-version](https://img.shields.io/badge/go%20version-1.7-orange.svg) [![GoDoc](https://godoc.org/github.com/crissilvaeng/goddamned?status.svg)](https://godoc.org/github.com/crissilvaeng/goddamned) ![license](https://img.shields.io/badge/license-MIT-blue.svg)
+[![Build Status](https://travis-ci.org/crissilvaeng/goseed.svg?branch=master)](https://travis-ci.org/crissilvaeng/goseed) [![Coverage Status](https://coveralls.io/repos/github/crissilvaeng/goseed/badge.svg?branch=HEAD)](https://coveralls.io/github/crissilvaeng/goseed?branch=HEAD) ![go-version](https://img.shields.io/badge/go%20version-1.7-orange.svg) [![GoDoc](https://godoc.org/github.com/crissilvaeng/goseed?status.svg)](https://godoc.org/github.com/crissilvaeng/goseed) ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-The objective of this project is to practice writing applications Go. Covering aspects such as testing, documentation, restful API and deploys in cloud environments.
+This repository is a seed for API projects developed in Go. It contains the dependencies, basic structure, test scripts and coverage. It is possible to easily integrate it with other services like [Travis Ci](https://travis-ci.org/), [Heroku](https://www.heroku.com/) and [Coveralls](https://coveralls.io/).
 
 ## Use from the source
 
@@ -15,22 +15,49 @@ Using govendor the following instructions should work fine, otherwise check the 
 **On Windows**
 
 ```bash
-> go get -u github.com/crissilvaeng/goddamned
-> cd %GOPATH%\github.com\crissilvaeng\goddamned
+> go get -u github.com/crissilvaeng/goseed
+> cd %GOPATH%\github.com\crissilvaeng\goseed
 > govendor sync
 > go get
-> goddamned
+> goseed
 ```
 
 **On Linux**
 
 ```bash
-$ go get -u github.com/crissilvaeng/goddamned
-$ cd $GOPATH/github.com/crissilvaeng/goddamned
+$ go get -u github.com/crissilvaeng/goseed
+$ cd $GOPATH/github.com/crissilvaeng/goseed
 $ govendor sync
 $ go get
-$ goddamned
+$ goseed
 ```
+
+Then check the results with  `curl -i http://localhost:5000/v1/hello`. If all went well, the following results should be obtained:
+
+```bash
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Sun, 02 Oct 2016 07:46:36 GMT
+Content-Length: 69
+
+{"message":"The answer to life, the universe and everything is 42."}
+ ```
+
+ ## CI and Deploy
+
+ This solution is designed to use the following services: [Travis CI](https://travis-ci.org/), Coveralls and [Heroku](https://www.heroku.com/).
+
+ ### [Coveralls](https://coveralls.io/)
+
+ Connect this repository to a account in Coveralls service. Save the `repo_token`. Replace the URL of the README badge.
+
+ ### [Travis CI](https://travis-ci.org/)
+
+Connect this repository to a account in [Travis CI](https://travis-ci.org/) service. Set two environment variables. One called `COVERALLS_TOKEN` whit the `repo_token` from [Coveralls](https://coveralls.io/). The second called  `CI_SERVICE` with the name of the service.
+
+### [Heroku](https://www.heroku.com/)
+
+Create a new app. Next, in deploy option connect with Github and configure to deploy this repository after build on [Travis CI](https://travis-ci.org/).
 
 ## Change Log
 
