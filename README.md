@@ -32,6 +32,8 @@ $ go get
 $ goseed
 ```
 
+To test, run this command `PORT=5000 go run main.go`.
+
 Then check the results with  `curl -i http://localhost:5000/v1/hello`. If all went well, the following results should be obtained:
 
 ```bash
@@ -45,11 +47,11 @@ Content-Length: 69
 
 ## CI and Deploy
 
-This solution is designed to use the following services: [Travis CI](https://travis-ci.org/), Coveralls and [Heroku](https://www.heroku.com/).
+This solution is designed to use the following services: [Travis CI](https://travis-ci.org/), Coveralls](https://coveralls.io/) and [Heroku](https://www.heroku.com/).
 
 ### [Coveralls](https://coveralls.io/)
 
-Connect this repository to a account in Coveralls service. Save the `repo_token`. Replace the URL of the README badge.
+Connect this repository to a account in Coveralls](https://coveralls.io/) service. Save the `repo_token`. Replace the URL of the README badge.
 
 ### [Travis CI](https://travis-ci.org/)
 
