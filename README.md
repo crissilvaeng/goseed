@@ -1,13 +1,7 @@
 <h1 align="center">
   <br>
   <a href="https://github.com/crissilvaeng/goseed"><img src="https://golang.org/doc/gopher/appenginegophercolor.jpg" alt="Go Seed" width="200"></a>
-</h1>
 
-<p align="center" style="font-size: 80%">
-<a href="https://golang.org/doc/gopher/">Gopher Images</a> by <a href="http://www.reneefrench.com/">Renée French</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions</a>
-</p>
-
-<h1 align="center">
   Go Seed
   <br>
   <br>
@@ -17,7 +11,6 @@
 <h4 align="center">For Restfull Web APIs</h4>
 <h5 align="center">Built with Golang and Gin</h5>
 
-
 <p align="center">
   <a href="https://travis-ci.org/crissilvaeng/goseed"><img src="https://travis-ci.org/crissilvaeng/goseed.svg?branch=master" alt="Build Status"></a>
   <a href="https://coveralls.io/github/crissilvaeng/goseed?branch=HEAD"><img src="https://coveralls.io/repos/github/crissilvaeng/goseed/badge.svg?branch=HEAD" alt="Coverage Status"></a>
@@ -26,6 +19,10 @@
   <a href="https://godoc.org/github.com/crissilvaeng/goseed"><img src="https://godoc.org/github.com/crissilvaeng/goseed?status.svg" alt="GoDoc"></a>
   <a href="https://golang.org/doc/devel/release.html"><img src="https://img.shields.io/badge/go%20version-1.7-orange.svg" alt="Go Version"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+</p>
+
+<p align="center">
+  <a href="https://golang.org/doc/gopher/">Gopher Images</a> by <a href="http://www.reneefrench.com/">Renée French</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions</a>
 </p>
 
 ## Proposal
