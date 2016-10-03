@@ -1,12 +1,34 @@
-# Go Seed
+<h1 align="center">
+  <br>
+  <a href="https://github.com/crissilvaeng/goseed"><img src="https://golang.org/doc/gopher/appenginegophercolor.jpg" alt="Go Seed" width="200"></a>
+</h1>
 
-[![Build Status](https://travis-ci.org/crissilvaeng/goseed.svg?branch=master)](https://travis-ci.org/crissilvaeng/goseed) 
-[![Coverage Status](https://coveralls.io/repos/github/crissilvaeng/goseed/badge.svg?branch=HEAD)](https://coveralls.io/github/crissilvaeng/goseed?branch=HEAD)
-[![Go Report Card](https://goreportcard.com/badge/github.com/crissilvaeng/goseed)](https://goreportcard.com/report/github.com/crissilvaeng/goseed)
-[![Latest Release](https://img.shields.io/github/release/crissilvaeng/goseed.svg)](https://github.com/crissilvaeng/goseed/releases) 
-[![GoDoc](https://godoc.org/github.com/crissilvaeng/goseed?status.svg)](https://godoc.org/github.com/crissilvaeng/goseed) 
-[![Go Version](https://img.shields.io/badge/go%20version-1.7-orange.svg)](https://golang.org/doc/devel/release.html)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+<p align="center" style="font-size: 80%">
+<a href="https://golang.org/doc/gopher/">Gopher Images</a> by <a href="http://www.reneefrench.com/">Renée French</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions</a>
+</p>
+
+<h1 align="center">
+  Go Seed
+  <br>
+  <br>
+</h1>
+
+<h4 align="center">A seed project</h4>
+<h4 align="center">For Restfull Web APIs</h4>
+<h5 align="center">Built with Golang and Gin</h5>
+
+
+<p align="center">
+  <a href="https://travis-ci.org/crissilvaeng/goseed"><img src="https://travis-ci.org/crissilvaeng/goseed.svg?branch=master" alt="Build Status"></a>
+  <a href="https://coveralls.io/github/crissilvaeng/goseed?branch=HEAD"><img src="https://coveralls.io/repos/github/crissilvaeng/goseed/badge.svg?branch=HEAD" alt="Coverage Status"></a>
+  <a href="https://goreportcard.com/report/github.com/crissilvaeng/goseed"><img src="https://goreportcard.com/badge/github.com/crissilvaeng/goseed" alt="Go Report Card"></a>
+  <a href="https://github.com/crissilvaeng/goseed/releases"><img src="https://img.shields.io/github/release/crissilvaeng/goseed.svg" alt="Latest Release"></a>
+  <a href="https://godoc.org/github.com/crissilvaeng/goseed"><img src="https://godoc.org/github.com/crissilvaeng/goseed?status.svg" alt="GoDoc"></a>
+  <a href="https://golang.org/doc/devel/release.html"><img src="https://img.shields.io/badge/go%20version-1.7-orange.svg" alt="Go Version"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+</p>
+
+## Proposal
 
 This repository is a seed for API projects developed in Go. It contains the dependencies, basic structure, test scripts and coverage. It is possible to easily integrate it with other services like [Travis Ci](https://travis-ci.org/), [Heroku](https://www.heroku.com/) and [Coveralls](https://coveralls.io/).
 
