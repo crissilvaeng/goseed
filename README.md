@@ -7,8 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">A seed project</h4>
-<h4 align="center">For Restfull Web APIs</h4>
+<h4 align="center">A seed project for Restful Web APIs</h4>
 <h5 align="center">Built with Golang and Gin</h5>
 
 <p align="center">
